@@ -133,13 +133,13 @@
           top:80px;     
       }
     
+      /* section three starts here */
     .spacethree{
         margin-bottom:100px;}
     
       .banner-five{
         width: 1320px;
         height: 482px;
-        border:2px solid tomato;
         margin:auto;
         margin: 130px 100px 100px 250px;
         background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));    
@@ -170,7 +170,7 @@
             text-transform: uppercase;
             margin:0px 480px 25px 600px;
       }
-    
+    /* section four starts here */
       .spacefour{
         margin-bottom: 150px;
       }
@@ -251,6 +251,7 @@
         margin:0px 50px 50px 130px;    
     }
     
+    /* section five starts here */
     .spacefive{
         margin-bottom: 100px;
     }
@@ -322,7 +323,7 @@
     
     /* section six starts here */
     .spacesix{
-        margin-bottom: 100px;
+        margin-bottom: 10px;
     }
     .spacesix-banner{
         width:1300px;
@@ -349,8 +350,7 @@
         font-weight: 900;
         line-height: normal;
         margin-top: 5px;
-        margin-left: 0px;
-    
+        margin-left: 0px;    
     }
     
     .spacesix-banner-three-text{
@@ -381,6 +381,8 @@
         width:1300px;
         height:600px;    
         margin:auto;
+        border: 3px solid red;
+        border-radius: 3px;
     }
     
     .spaceseven-first-text{
@@ -433,24 +435,30 @@
         text-transform: capitalize;
     }
     
-    .footer{
+    /* Footer starts here */
+    .heading-footer{
         width:1300px;
         height:600px;
         background-color:black;
-        margin:auto; 
+        margin:auto;
+        border:2px solid black; 
+        margin-top: 100px;
+
+    }
+    .footer-sub{      
         display: flex;
-        gap:200px;
-        border:2px solid black;  
+       gap:300px;        
+        
     }
     
     .footer-firstdiv{
-        width:375;
+        width:300px;
         height:80px;
         color:white;
         font-size: 24px;
         font-weight: 500;
         line-height: 40px;
-        margin: 50px 100px 200px 20px;  
+        margin: 50px 20px 10px 80px;  
     
     }
     
@@ -460,21 +468,51 @@
         color:white;
         font-size: 24px;
         font-weight: 500;
-        line-height: 40px; 
-        
-    }
-    
-    .footer-seconddiv{
-        margin:100px 300px 200px 20px; 
-    }
-    
-    .footer-second-second{
+        line-height: 40px;
+        margin:80px 50px 0px 100px;         
+    }   
+   
+      .footer-second-second{
         width:211px;
         height:40px;
         color: #FFF;
         font-size: 24px;
         font-weight: 500;
         line-height: 40px; 
+        margin:0px 50px 0px 100px;
+    }
+
+    .social{
+        width:260px;
+        height:65px;
+        border:5px solid red;
+        display:flex; 
+        margin: auto;  
+        margin: bottom 150px;
+       margin-top:100px;              
+         
+    }      
+
+    .size{
+        width:64px;
+        height:64px;  
+    } 
+
+    .footer-end{
+        display:flex;
+        gap:680px;
+        margin-top: 100px;
+      
+    }
+    .footer-end-one{
+        color: #FFF;        
+        font-size: 24px;        
+        font-weight: 500;
+        margin-left: 50px;       
     }
     
-    
+    .footer-end-two{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 500;
+    }
